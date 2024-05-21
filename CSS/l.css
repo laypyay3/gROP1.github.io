@@ -1,0 +1,54 @@
+ody {
+    background-color: #dedede;
+}
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+li{
+    color: black;
+}
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+ 
+nav .logo {
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
+ 
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    position: relative;
+}
+ 
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    background: transparent;
+}
+ 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+ 
+nav ul li a:hover {
+    color: #C52ACF;
+    background-color: #31C3B1;
+    border-radius: 10px;
+}
